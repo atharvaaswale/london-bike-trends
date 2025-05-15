@@ -1,6 +1,4 @@
-# London Bike Rides Analysis
-
-![Bike Sharing](https://images.unsplash.com/photo-1551966775-a4ddc8df0528?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80)
+# London Bike Trends
 
 This project analyzes bike-sharing trends in London, examining the influence of weather, seasons, holidays, and weekends. It includes a Jupyter Notebook that preprocesses and cleans a bike rides dataset, producing a structured Excel file for further analysis.
 
@@ -11,8 +9,6 @@ This project analyzes bike-sharing trends in London, examining the influence of 
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 This project explores bike-sharing patterns in London using hourly ride data. The Jupyter Notebook performs key preprocessing steps, including:
@@ -44,8 +40,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/LondonBikeRidesAnalysis.git
-   cd LondonBikeRidesAnalysis
+   git clone https://github.com/your-username/london-bike-trends.git
+   cd london-bike-trends
    ```
 
 2. **Set up a Python environment**:
@@ -82,7 +78,7 @@ To set up the project locally, follow these steps:
 
 ## File Structure
 ```
-LondonBikeRidesAnalysis/
+london-bike-trends/
 ├── london_bike_rides.ipynb    # Jupyter Notebook with preprocessing
 ├── london_bikes_final.xlsx    # Cleaned dataset output
 ├── requirements.txt           # Python dependencies
@@ -97,13 +93,3 @@ Contributions are welcome. To contribute:
 3. Make changes and commit (`git commit -m "Add your feature"`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
-
-Please ensure code is documented and aligns with project standards.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- The dataset is sourced from public bike-sharing data for London.
-- Thanks to the open-source community for tools like Pandas, NumPy, and Jupyter.
-- Image credit: [Unsplash](https://unsplash.com).
